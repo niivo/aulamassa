@@ -12,3 +12,10 @@ services:
       - 8080:80
     environment:
       - PMA_ARBITRARY=1
+
+  web:
+    image: nginx
+    volumes:
+      - ./templates:/usr/share/nginx/html
+    ports:
+      - "8085:80"
