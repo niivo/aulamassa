@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>VM</title>
 </head>
+ 
 <body>
-    <h1>BANANA PRATA</h1>
-    <H2>577</H2>
+    <?php echo "<h1>joia</h1>" ?>
 </body>
+ 
 </html>
