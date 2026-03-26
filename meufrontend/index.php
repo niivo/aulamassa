@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
- 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VM</title>
+    <title>Document</title>
 </head>
- 
 <body>
-    <?php echo "<h1>joia</h1>" ?>
+    <h1>Meu HTML</h1>
+    <?php 
+        $nome="Claude Shanon";
+        echo "<h2>Olá $nome !!!</h2>" 
+    ?>
 </body>
- 
 </html>
